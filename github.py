@@ -1,10 +1,9 @@
-<<<<<<< HEAD
 import os
 import subprocess
 from datetime import datetime, timedelta
 
 # Configuration variables
-REPO_PATH = r'C:\Users\alexm\Desktop\contribution-graph'  # Path to the local Git repository
+REPO_PATH = r'C:\Users\USER\Desktop\contribution-graph'  # Path to the local Git repository
 COMMIT_MESSAGE = 'Hack the contribution graph'  # Commit message to be used
 START_DATE = '2024-04-01'  # Start date for generating commits
 DAYS = 60  # Number of commits to make (one commit per day)
@@ -65,7 +64,7 @@ def main():
 
 if __name__ == "__main__":
     main()  # Run the script
-=======
+
 import os
 import subprocess
 from datetime import datetime, timedelta
@@ -132,4 +131,3 @@ def main():
 
 if __name__ == "__main__":
     main()  # Run the script
->>>>>>> 8d98acb07065e4d3019b48c022584dd8a09bbfdc

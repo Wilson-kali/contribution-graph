@@ -70,7 +70,7 @@ import subprocess
 from datetime import datetime, timedelta
 
 # Configuration variables
-REPO_PATH = r'C:\Users\alexm\Desktop\py'  # Path to the local Git repository
+REPO_PATH = r'C:\Users\USER\Desktop\contribution-graph'  # Path to the local Git repository
 COMMIT_MESSAGE = 'Hack the contribution graph'  # Commit message to be used
 START_DATE = '2024-04-01'  # Start date for generating commits
 DAYS = 60  # Number of commits to make (one commit per day)
